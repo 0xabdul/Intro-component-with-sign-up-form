@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>intro page</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <div id="container"role="main">
+      <div id="row">
+    <h1>Learn to code by watching others</h1>
+    <h2>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,but understanding how developers think is invaluable.</h2>
+   </div>
+    <div id="input-container">
+    <button id="first-btn"><span id="firstcolor">Try it free 7 days</span> then $20/mo. thereafter</button>
+    <div id="second-wrapper">
+      <label for="f-name">
+        <input type="text" name="f-name" id="first-name" placeholder="first Name"></input>
+        <img id="errorstateone" src="images/icon-error.svg" alt="icon-error"></img>
+        <p id="fname-valid"></p>
+      </label>  
+      <label for="l-name">
+        <input type="text" name="l-name" id="last-name" placeholder="last Name"></input>
+        <img id="errorstatetwo" src="images/icon-error.svg" alt="icon-error"></img>
+        <p id="lname-valid"></p>
+      </label>  
+      <label for="email">
+        <input type="text" name="email" id="gmail" placeholder="Email"></input>
+        <img id="errorstatethree" src="images/icon-error.svg" alt="icon-error"></img>
+        <p id="email-valid"></p>
+      </label>  
+      <label for="password">
+        <input type="password" name="password" id="passkey"placeholder="password"></input>
+        <img id="errorstatefour" src="images/icon-error.svg" alt="icon-error"></img>
+        <p id="pass-valid"></p>
+      </label>  
+      <button id="second-btn">CLAIM YOUR FREE TRIAL</button>
+     <h3 id="ga"> By clicking the button, you are agreeing to our <span id="colorchangered"> Terms and Services</span></h3>
+    </div>
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
